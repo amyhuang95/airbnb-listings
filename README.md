@@ -2,6 +2,8 @@
 
 Simple static demo showing Airbnb listings (San Francisco subset).
 
+Access the page at https://amyhuang95.github.io/airbnb-listings/
+
 Contents
 - `index.html` — main page that renders the listings.
 - `css/main.css` — styles (uses Bootstrap CDN).
