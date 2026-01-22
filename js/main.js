@@ -11,9 +11,9 @@ function MainModule(listingsID = '#listings') {
     const idx = parseInt(btn.dataset.index, 10);
     const listing = currentListings[idx];
     if (!listing) return;
-    const modalEl = document.getElementById('detailsModal');
-    const modalTitle = document.getElementById('detailsModalLabel');
-    const modalBody = document.getElementById('detailsModalBody');
+    const modalEl = document.getElementById('details-modal');
+    const modalTitle = document.getElementById('details-modal-label');
+    const modalBody = document.getElementById('details-modal-body');
     modalTitle.textContent = parseListingName(listing.name)[0] || 'Details';
     const hostName = listing.host_name || 'Host';
     const hostThumb =

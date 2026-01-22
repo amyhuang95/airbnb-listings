@@ -55,7 +55,7 @@
     column-gap: 0; 
 }
 
-#detailsModalBody {
+#details-modal-body {
     max-height: 60vh;
     overflow-y: auto;
     overflow-x: hidden;
@@ -76,7 +76,7 @@
     border-radius: 6px;
 }
 
-#detailsModalBody .badge {
+#details-modal-body .badge {
     white-space: nowrap;
 }
 
